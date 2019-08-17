@@ -1,0 +1,657 @@
+/*Following styles copied from Data components*/
+
+.header-wrapper {
+  color:#fff;
+  background-color:#509BF5;
+} 
+
+@media (min-width:480px) {
+  .header-wrapper {
+    background-color:#509BF5;
+    }
+} 
+
+@media (min-width:992px) {
+  .header-wrapper { 
+    background:url(https://campaigns-test.scdn.co/images/premium_dancer.png) no-repeat bottom right/450px;
+    background-color:#509BF5;}
+}
+     
+
+@media (min-width:1200px){
+
+} 
+  .header-wrapper a {
+    color:#fff;
+    -webkit-text-decoration:underline;
+    text-decoration:underline;
+}
+
+
+.header-inner { 
+  font-family:Circular,Helvetica,Arial,sans-serif;
+  box-sizing:border-box;
+  height:auto;
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-flex-direction:column;
+  -ms-flex-direction:column;
+  flex-direction:column;
+  margin:0 auto;
+  padding:35px 15px;
+  padding-top:80px;
+} 
+
+@media (min-width:1200px) {
+  .header-inner {
+    min-height:70vh;
+  }
+} 
+
+@media (min-width:768px) {
+  .header-inner {
+    width:750px;
+    }
+} 
+
+@media (min-width:992px) {
+  .header-inner {
+    width:970px;
+    }
+} 
+
+@media (min-width:1200px) {
+  .header-inner {
+    width:1170px;
+    }
+}
+
+.headings-wrap { 
+  -webkit-box-flex:1;
+  -webkit-flex-grow:1;
+  -ms-flex-positive:1;
+  flex-grow:1;
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-align-items:center;
+  -webkit-box-align:center;
+  -ms-flex-align:center;
+  align-items:center;
+  margin-bottom:10px;
+} 
+
+@media (min-width:768px) {
+  .headings-wrap {
+    margin-bottom:30px;
+    }
+}
+
+.headings-inner { 
+  text-align:auto;
+  width:100%;
+  -webkit-font-smoothing:antialiased;
+}
+
+.headings-margin-t { 
+  margin:10px 0;
+} 
+
+@media (min-width:768px) {
+  .headings-margin-t {
+    margin:30px 0;
+  }
+}
+
+.headings-h1 { 
+  line-height:1.2;
+  margin:0;
+  padding-top:80px;
+  font-weight:900;
+  max-width:100%;
+  width:auto;
+  display:inline-block;
+  font-size:48px;
+} 
+
+@media (min-width:768px) {
+  .headings-h1 {
+    font-size:80px;
+  }
+} 
+
+@media (min-width:992px) {
+
+  } 
+
+@media (min-width:1200px) {
+  .headings-h1 {
+    padding-top:0;
+  }
+}
+
+.sub-h2 {
+  line-height:1.5;
+  margin:15px 0;
+  padding:0;
+  margin-bottom:0;
+  width:100%;
+  max-width:100%;
+  display:inline-block;
+  font-weight:600;
+  font-size:24px;
+} 
+
+@media (min-width:480px) { 
+  .sub-h2 {
+    margin:30px 0;
+  }
+} 
+
+@media (min-width:768px) {
+  .sub-h2 {
+    font-size:30px;
+    margin-bottom:0;
+  }
+}
+
+.dJjMnc { padding:0;margin:20px 0;} @media (min-width:768px){.dJjMnc{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;}}
+
+.button-wrapper { 
+  display:block;
+  margin:20px 0;
+} 
+
+.button-wrapper > div:not(:last-child) {
+  margin-bottom:10px;
+} 
+
+.button-wrapper a {
+  width:100%;
+  box-sizing:border-box;
+  text-decoration: none;
+} 
+
+@media (min-width:768px) {
+  .button-wrapper {
+    margin:35px 0 0;
+  }
+
+  .button-wrapper a {
+    width:auto;
+  }
+
+  .button-wrapper > div {
+    display:inline-block;
+  }
+  .button-wrapper > div:not(:last-child) {
+    margin-right:8px;
+    margin-bottom:0;}
+}
+
+.button-trial { 
+  background-color:transparent;
+  border:0;
+  border-radius:500px;
+  cursor:pointer;
+  display:inline-block;
+  font-size:14px;
+  font-weight:700;
+  -webkit-letter-spacing:2px;
+  -moz-letter-spacing:2px;
+  -ms-letter-spacing:2px;
+  letter-spacing:2px;
+  line-height:1;
+  text-align:center;
+  text-transform:uppercase;
+  touch-action:manipulation;
+  -webkit-transition-duration:33ms;
+  transition-duration:33ms;
+  -webkit-transition-property:background-color,border-color,color,box-shadow,filter,-webkit-transform;
+  -webkit-transition-property:background-color,border-color,color,box-shadow,filter,transform;
+  transition-property:background-color,border-color,color,box-shadow,filter,transform;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+  vertical-align:middle;
+  -webkit-transform:translate3d(0,0,0);
+  -ms-transform:translate3d(0,0,0);
+  transform:translate3d(0,0,0);
+  padding:17px 48px;
+  background-color:#1db954;
+  color:#ffffff;
+} 
+
+.button-trial:hover:not(:focus):not(:disabled) {
+  -webkit-transform:scale(1.04);
+  -ms-transform:scale(1.04);
+  transform:scale(1.04);
+  background-color:#1ed760;
+  color:#ffffff;
+} 
+
+.button-trial:active,.button-trial:active:hover {
+  -webkit-transform:scale(1);
+  -ms-transform:scale(1);
+  transform:scale(1);
+  background-color:#14833b;
+  box-shadow:none;color:#bdbdbd;
+} 
+
+.button-trial:focus {
+  color:#eeeeee;
+  background-color:#14833b;
+} 
+
+.button-trial[disabled],fieldset[disabled] .button-trial {
+  background-color:#1db954;
+  color:#ffffff;
+  cursor:not-allowed;
+  opacity:0.4;
+} 
+
+.button-trial:focus {
+  outline:none;
+}
+
+.button-comp {
+  width: 100%;
+}
+.disclaimer { text-align:auto;font-size:12px;width:100%;}
+
+.disclaimer-pos { display:inline-block;} @media (min-width:992px){.gXTCyF{max-width:630px;}}
+
+
+/* outer wrapper*/
+.o-wrapper {
+  overflow:auto;
+}
+
+
+.o-inner { 
+  font-family:Circular,Helvetica,Arial,sans-serif;
+  margin:0 auto;
+  padding:35px 15px;
+  max-width:100%;
+  box-sizing:border-box;
+} 
+
+@media (min-width:768px) {
+.o-inner {
+  width:750px;
+  padding:75px 15px;
+    }
+} 
+
+@media (min-width:992px) {
+.o-inner {
+  width:970px;
+    }
+} 
+
+@media (min-width:1200px) {
+.o-inner {
+  width:1170px;
+    }
+}
+
+/*BENEFITS*/
+.headings-h2 { 
+  font-family:Circular,Helvetica,Arial,sans-serif;
+  text-align:center;line-height:1.5;
+  margin-bottom:30px;
+    } 
+
+@media (min-width:768px) {
+.headings-h2 { 
+    margin-bottom:72px;
+    }
+}
+
+.headings-h2-f { 
+  margin-block-start:0;
+  margin-block-end:0;
+  font-size:32px;
+  line-height:1.3;
+  -webkit-letter-spacing:-0.015em;
+  -moz-letter-spacing:-0.015em;
+  -ms-letter-spacing:-0.015em;
+  letter-spacing:-0.015em;
+  font-weight:900;
+    } 
+
+@media (min-width:768px) {
+.headings-h2-f {
+    font-size:48px;
+    }
+}
+
+@media (min-width:768px) {
+.benefits { 
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-flex-wrap:wrap;
+  -ms-flex-wrap:wrap;
+  flex-wrap:wrap;
+  }
+} 
+
+@media (min-width:1200px) {
+  .benefits {
+    -webkit-flex-wrap:nowrap;
+    -ms-flex-wrap:nowrap;
+    flex-wrap:nowrap;
+    -webkit-box-pack:justify;
+    -webkit-justify-content:space-between;
+    -ms-flex-pack:justify;
+    justify-content:space-between;
+    }
+}
+
+.benefit { 
+  margin-bottom:20px;
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:-ms-flexbox;display:flex;
+} 
+
+@media (min-width:768px) {
+  .benefit {
+    -webkit-box-flex:1;
+    -webkit-flex-grow:1;
+    -ms-flex-positive:1;
+    flex-grow:1;
+    width:50%;
+    }
+} 
+
+@media (min-width:1200px) {
+  .benefit {
+    vertical-align:top;
+    display:block;
+    width:270px;
+    }
+}
+
+.ben-1 {
+  display:inline-block;
+  margin-right:20px;
+  -webkit-box-flex:1;
+  -webkit-flex-grow:1;
+  -ms-flex-positive:1;
+  flex-grow:1;
+  background:url(https://campaigns.scdn.co/images/benefit-1.png) no-repeat;
+  background-size:contain;
+  width:142px;
+  height:142px;
+} 
+
+@media (min-width:1200px) {
+  .ben-1 {
+    display:block;
+    margin:0 auto 40px auto;
+    margin:0 auto 40px auto;
+  }
+}
+
+.ben-2 {
+  display:inline-block;
+  margin-right:20px;
+  -webkit-box-flex:1;
+  -webkit-flex-grow:1;
+  -ms-flex-positive:1;
+  flex-grow:1;
+  background:url(https://campaigns.scdn.co/images/benefit-2.png) no-repeat;
+  background-size:contain;
+  width:142px;
+  height:142px;
+} 
+
+@media (min-width:1200px) {
+  .ben-2 {
+    display:block;
+    margin:0 auto 40px auto;
+    margin:0 auto 40px auto;
+    }
+}
+
+.ben-3 {
+  display:inline-block;
+  margin-right:20px;
+  -webkit-box-flex:1;
+  -webkit-flex-grow:1;
+  -ms-flex-positive:1;
+  flex-grow:1;
+  background:url(https://campaigns.scdn.co/images/benefit-3.png) no-repeat;
+  background-size:contain;
+  width:142px;
+  height:142px;
+} 
+
+@media (min-width:1200px) {
+  .ben-3 {
+    display:block;
+    margin:0 auto 40px auto;
+    margin:0 auto 40px auto;
+    }
+  }
+
+  .ben-4 {
+    display:inline-block;
+    margin-right:20px;
+    -webkit-box-flex:1;
+    -webkit-flex-grow:1;
+    -ms-flex-positive:1;
+    flex-grow:1;
+    background:url(https://campaigns.scdn.co/images/benefit-4.png) no-repeat;
+    background-size:contain;
+    width:142px;
+    height:142px;
+} 
+
+@media (min-width:1200px) {
+  .ben-4 {
+    display:block;
+    margin:0 auto 40px auto;
+    margin:0 auto 40px auto;}
+  }
+
+.ben-txt-wrap { 
+  display:inline-block;
+  width:100%;
+  -webkit-box-flex:1;
+  -webkit-flex-grow:1;
+  -ms-flex-positive:1;
+  flex-grow:1;
+} 
+
+@media (min-width:1200px) {
+  .ben-txt-wrap {
+    display:block;
+    text-align:center;
+    }
+}
+
+.ben-h { 
+  font-weight:bold;
+  margin-bottom:10px;
+  font-size:21px;
+}
+.ben-p { 
+  line-height:1.5;
+  font-size:16px;
+} 
+
+@media (min-width:768px) {
+  .bLyMeZ {
+    width:85%;
+    }
+} 
+
+@media (min-width:1200px) {
+  .bLyMeZ {
+    margin:0 auto;
+    }
+}
+
+.iratEd { 
+  text-align:center;
+}
+
+
+/*COMPARISION*/
+
+@media (min-width:768px) {
+  .c-cont {
+    width:600px;
+    max-width:100%;
+    margin:0 auto;
+  }
+}
+
+.comp1-a { 
+  width:100%;
+  padding:20px 32px;
+  box-sizing:border-box;
+  display:inline-block;
+  margin-bottom:20px;
+  text-align:left;
+} 
+
+@media (min-width:768px) {
+  .comp1-a {
+    width:100%;
+  }
+  .comp1-a:first-child {
+    margin-right:20px;
+  }
+}
+
+.comp-s { 
+  background-color:white;
+  padding:20px;
+  border-radius:10px;
+  box-shadow:0 0 8px rgba(0,0,0,0.2);
+  } 
+
+@media (min-width:768px) {
+  .comp-s {
+  padding:30px 20px;
+  }
+}
+
+.head-h3 { 
+  font-size:24px;
+  font-weight:400;
+  margin:0;
+  line-height:1.4;
+}
+
+.price { 
+  margin:8px 0 30px;
+  font-size:32px;
+  font-weight:900;
+  direction:ltr;
+}
+
+.month { 
+  font-size:16px;
+  font-weight:400;
+  line-height:1.1;
+}
+.comp-p { 
+  color:#919191;
+  font-size:12px;
+  margin-top:-23px;
+  margin-bottom:0;
+  height:29px;
+}
+
+.c-b { 
+  border-top:1px solid #d9dadc;
+  border-bottom:1px solid #d9dadc;
+  padding:34px 0 26px;
+}
+
+.c-ls { 
+  margin:0 25px;
+  padding-bottom:7px;
+  line-height:22px;
+  direction:ltr;
+  list-style-image:url('https://www.scdn.co/i/home/plan-checklist.svg');
+  color:#000;
+}
+
+.c-l { list-style:none;margin:0;padding:0;}
+.ls-txt { 
+  border-bottom:1px solid #eeeeee;
+  font-size:24px;
+  font-weight:400;
+  padding:20px 10px;
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-pack:justify;
+  -webkit-justify-content:space-between;
+  -ms-flex-pack:justify;
+  justify-content:space-between;
+  -webkit-flex-direction:column;
+  -ms-flex-direction:column;
+  flex-direction:column;
+  -webkit-align-items:flex-start;
+  -webkit-box-align:flex-start;
+  -ms-flex-align:flex-start;
+  align-items:flex-start;
+} 
+
+.ls-txt:first-child {
+  padding-top:0;
+} 
+.ls-txt:last-child {
+  border-bottom:0;
+  padding-bottom:0;
+} 
+
+@media (min-width:768px) {
+  .ls-txt {
+    padding:20px;
+    -webkit-flex-direction:row;
+    -ms-flex-direction:row;
+    flex-direction:row;
+  }
+}
+.ln-mr { 
+  display:block;
+  color:#1db954;
+  text-transform:uppercase;
+  font-size:14px;
+  font-weight:700;
+  cursor:pointer;
+  -webkit-letter-spacing:2px;
+  -moz-letter-spacing:2px;
+  -ms-letter-spacing:2px;
+  letter-spacing:2px;
+  line-height:36px;
+} 
+
+@media (min-width:768px) {
+  .ln-mr {
+    float:right;
+    display:inline-block;
+  }
+} 
+
+.ln-mr:hover {
+  color:#ffffff;
+}
+
+header.sticky {
+    background-color: rgba(0, 0, 0, 0.6);
+}
