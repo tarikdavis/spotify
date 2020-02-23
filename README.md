@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Spotify Premium Homepage
+
+I was asked to create a copy of the Spotify Premium Homepage as a practical test for a role I interviewed for at Spotify.
+I didn't get the job [sadface]
+
 ## Available Scripts
 
 In the project directory, you can run:
